@@ -1,0 +1,56 @@
+.crousel-container{
+    width: 100%;
+    height: 260px;
+    background-color: #ffff;
+   
+}
+.crousel-images{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.crousel-one{
+    width: 398.3px;
+height: 199.15px;
+border-radius: 20px ;
+
+}
+.crousel-picture{
+    width: 398.3px;
+height: 199.15px;
+border-radius: 20px;
+
+}
+.dots{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.dot1,.dot3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #BCD8E9;
+ 
+}
+.dot2{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #2AA7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.dot4{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #2AA7FF;
+}

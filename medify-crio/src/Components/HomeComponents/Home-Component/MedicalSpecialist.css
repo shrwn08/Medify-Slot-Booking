@@ -1,0 +1,94 @@
+.Medical-specialist-container {
+  width: 100%;
+  height: 819px;
+  overflow: hidden;
+}
+.medical-specialist {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.medical-specialist-text {
+  width: 543px;
+  height: 67px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  color: #1b3c74;
+}
+.medical-specialist-crousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.specialist-image-DocName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 370px;
+  height: 505px;
+}
+.specialist-image-container {
+  width: 350px;
+  height: 394px;
+  background: linear-gradient(144.2deg, #e1f3ff 0%, #2aa7ff 100%);
+  position: relative;
+  border-radius: 250px 250px 4px 4px;
+}
+.DocName {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #1b3c74;
+}
+.their-specialist {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+  color: #2aa7ff;
+}
+.specialist-image {
+  width: 316px;
+  height: 365px;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.specialist-crousel{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .circel1{
+    width: 10px;
+    height: 10px;
+    background-color: #BCD8E9;
+    border-radius: 50%;
+  }
+  .circel-outer{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #2AA7FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circel-inner{
+    width: 10px;
+    height: 10px;
+    background-color: #2AA7FF;
+    border-radius: 50%;
+  }

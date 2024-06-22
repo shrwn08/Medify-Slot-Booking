@@ -1,23 +1,35 @@
 .FAQ-container {
   width: 100%;
-  height: 100%;
+  height: 710px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #ffff;
+}
+.FAQ-Sub-container {
+  width: 80%;
+  height: 690px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .faq {
-  width: 80%;
+  width: 100%;
+  height: 100%;
 }
 .faq-heading {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100px;
 }
+
 .get-your-ans {
   width: 134px;
-  height: 27px;
   font-family: "Poppins";
   font-size: 16px;
   font-weight: 600;
@@ -33,31 +45,93 @@
   text-align: center;
   color: #1b3c74;
 }
-.image-question{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:50px;
-    width: 80%;
+.image-question {
+  width: 100%;
+  height: 586px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+
 }
 .image-faq {
-    width: 500px;
-    height: 479.84px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  width: 500px; 
+   height: 479.84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
-.image-Doc{
-   
+.image-Doc-ask {
+  width: 500px;
+  height: 479.84px;
+  border: 10px;
+  object-fit: cover;
 }
-.faq-question{
-width: 484px;
-height: 499.84px;
+.faq-question {
+  width: 484px;
+  height: 499.84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.happy-emoji-icon{
+  width: 241.93px;
+height: 104.59px;
+border-radius: 8px;
 display: flex;
 justify-content: center;
-align-items: center;
-flex-direction: column;
+align-items: center; 
+gap: 20px;
+position: absolute;
+z-index: 5;
+top: 60%;
+left: -60px;
+background-color: #fff;
+box-shadow: 0px 15px 35px -5px #00000012;
 
 }
+.happy-emoji {
+  width: 44px;
+}
+.ask-like {
+  font-family: Poppins;
+margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1b3c74;
+}
+.ask-happy-patient-text{
+  height: 70px;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+}
+.ask-emoji-text {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #77829D;
 
+}
+.ask-heart-in-hand-container{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #ffff;
+  top: 32%;
+  left: 45.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ask-heart-in-hand{
+  width: 40px;
+  height: 40px;
+}

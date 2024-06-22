@@ -1,0 +1,202 @@
+.CardDP3-Booking-container {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.CardDp2-banner-timing-appointment {
+  position: relative;
+  width: 80%;
+  height: auto;
+  padding-bottom: 30px;
+}
+.searched-result-card-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.searched-result-card-banner {
+  width: 786px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searched-result-card {
+  height: auto;
+  /* padding-bottom: 30px; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.search-result-card-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #f0f0f5;
+}
+.Searched-result-hospital-icon {
+  width: 124px;
+  height: 124px;
+  background-color: #8ccfff;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-hospital-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.Searched-result-Details-heading {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  color: #14bef0;
+}
+.Searched-result-city-state {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  color: #414146;
+}
+.Searched-result-mini-details {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414146;
+}
+.Searched-result-Discount-details {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414146;
+}
+.Searched-result-free {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  color: #02a401;
+}
+.Searched-result-previous-price {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #787887;
+  text-decoration: line-through;
+}
+.Searched-result-Booking-available-div {
+  width: 236.01px;
+  height: 220.38px;
+
+}
+.Searched-result-Booking-available {
+  width: 220px;
+  height: 82.4px;
+
+  gap: 16px;
+}
+.CardDP3-time-available {
+  width: 84px;
+  height: 31.59px;
+  border-radius: 3px;
+  border: 1px solid #2aa7ff;
+  background-color: #fff;
+  color: #2aa7ff;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+}
+.Searched-result-Booking {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #ffffff;
+  border: 1px solid #14bef0;
+  background-color: #14bef0;
+}
+.searched-result-card-container {
+}
+.searched-result-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.banner-card {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 363px;
+  height: 268px;
+  border-radius: 15px;
+}
+
+.banner-card-image {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+.timings-appointments {
+}
+.morning-appointment {
+  margin: 25px;
+  gap: 37px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f5;
+}
+.morning {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414146;
+}
+.cardDP2-expended-card-timing-availability {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.After-noon-appointment {
+  margin: 25px;
+  gap: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f5;
+}
+.After-noon {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414146;
+}
+
+.evening-appointment {
+  margin: 25px;
+  gap: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f5;
+}
+.evening {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414146;
+}

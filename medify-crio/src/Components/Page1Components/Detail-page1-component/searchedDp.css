@@ -1,0 +1,148 @@
+.Searched-reasult-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Searched-reasult-sub-container {
+  width: 80%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.show-no-result {
+  margin-top: 130px;
+}
+.searched-no-result {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+}
+.search-info-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  color: #787887;
+}
+.searched-result-card-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.searched-result-card-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searched-result-card {
+  width: 786px;
+  height: 269px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.Searched-result-hospital-icon {
+  width: 124px;
+  height: 124px;
+  background-color: #8ccfff;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-hospital-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.Searched-result-Details-heading {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  color: #14bef0;
+}
+.Searched-result-city-state {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  color: #414146;
+}
+.Searched-result-mini-details {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414146;
+}
+.Searched-result-Discount-details {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414146;
+}
+.Searched-result-free {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  color: #02a401;
+}
+.Searched-result-previous-price {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #787887;
+  text-decoration: line-through;
+}
+.Searched-result-Booking-available-div {
+  width: 236.01px;
+  height: 220.38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Searched-result-Booking-available {
+  width: 220px;
+  height: 82.4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+.Searched-result-available{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+color: #01A400;
+}
+.Searched-result-Booking{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+border-radius: 4px;
+color: #FFFFFF;
+border: 1px solid #14BEF0;
+background-color:#14BEF0;
+}
+.searched-result-card-container{
+    
+}
+.searched-result-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.banner-card {
+  width: 363px;
+  height: 268px;
+  border-radius: 15px;
+  background-color: #787887;
+  overflow: hidden;
+}
+
+.banner-card-image {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}

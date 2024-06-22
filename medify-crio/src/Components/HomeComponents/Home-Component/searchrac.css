@@ -28,7 +28,7 @@
   align-items: center;
   gap: 10px;
 }
-.cards {
+.cards-searchbar {
   width: 203px;
   height: 153px;
   border-radius: 8px;
@@ -37,6 +37,13 @@
   align-items: center;
   flex-direction: column;
   background-color: #fafbfe;
+  color:#ABB6C7;
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+
+
+  
 }
 .doc-Icon {
   width: 60px;

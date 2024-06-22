@@ -1,10 +1,10 @@
 import React from "react";
 import { Box, Button } from "@mui/material";
-import Doctors from '../../Asset/doctors.png'
+import Doctors from "../../Asset/doctors.png";
 import "./hero-section.css";
 import SearchBar from "./SearchBar";
 
-const HeroSection = () => {
+const HeroSection = ({ statesData,cityData, settingFormData }) => {
   return (
     <Box className="hero-container">
       <Box className="Text-hero-btn-container">
@@ -25,20 +25,25 @@ const HeroSection = () => {
                 height: "48px",
                 gap: "10px",
                 borderRadius: "8px",
-                backgroundColor:' #2AA8FF',
-                color:'#FFFFFF',
+                backgroundColor: " #2AA8FF",
+                color: "#FFFFFF",
               }}
-            >Find Centers</Button>
+            >
+              Find Centers
+            </Button>
           </Box>
         </Box>
         <Box className="hero-image">
-            <img className="doctors-image-hero" src={Doctors} alt="doctorImage"/>
+          <img className="doctors-image-hero" src={Doctors} alt="doctorImage" />
         </Box>
       </Box>
-      <Box className='search-box'>
-      <SearchBar />
+      <Box className="search-box">
+        <SearchBar
+          statesData={statesData}
+          settingFormData={settingFormData}
+          citiesData={cityData}
+        />
       </Box>
-      
     </Box>
   );
 };

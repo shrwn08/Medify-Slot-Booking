@@ -1,0 +1,151 @@
+.our-family-container {
+  width: 100%;
+  height: 789px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+}
+.our-family {
+  width: 80%;
+  height: 714px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-family-box {
+  width: 575px;
+  height: 714px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-family-box-sub {
+  /* display: flex;
+  justify-content: flex-start;
+  flex-direction: column; */
+}
+.caring-for-heath {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  color: #2aa7ff;
+}
+.our-family-heading {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+}
+.our-family-paragraph{
+    width: 531.17px;
+height: 205px;
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+color: #77829D;
+
+}
+.our-family-cards-container{
+  width: 575px;
+  height: 714px;
+  position: relative;
+  
+}
+
+.Happy-Patients-Hospitals{
+    position: absolute;
+    width: 565px;
+height: 388px;
+top: -20px;
+left: 10px;
+}
+.our-family-Happy-Patients{
+    position: absolute;
+    width: 242.5px;
+height: 304px;
+top: 20px;
+left: 20px;;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #ffff;
+gap: 20px;
+}
+.our-family-Hospitals{
+    position: absolute;
+    width: 252.5px;
+height: 304px;
+top: 69px;
+left: 297.5px;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #ffff;
+gap: 20px;
+}
+.Laboratories-Expert-Doctors{
+    position: absolute;
+    width: 565px;
+height: 375px;
+top: 329px;
+left: 10px;
+
+
+
+}
+.our-family-Laboratories{
+    position: absolute;
+    width: 242.5px;
+height: 304px;
+top: 10px;
+left: 20px;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #ffff;
+gap: 20px;
+}
+.our-family-Expert-Doctors{
+    position: absolute;
+    width: 252.5px;
+    height: 304px;
+    top: 56px;
+    left: 297.5px;
+    border-radius: 8px;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #ffff;
+gap: 20px;
+}
+.ofhp-image{
+    width: 100px;
+}
+.ofhp-count{
+    font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+color: #1B3C74;
+
+}
+
+.ofhp-text{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: center;
+color: #77829D;
+
+}

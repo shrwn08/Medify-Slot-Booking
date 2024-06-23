@@ -10,12 +10,10 @@ import CardDP2 from './detail-page2/CardDP2'
 const DetailPage2 = () => {
   return (
     <div className='detail-page2-container'>
-        <MessageNavbar />
+      
         <SearchBarDP />
         <CardDP2 />
         <AskFAQ />
-        <MobDownload />
-        <Footer />
     </div>
   )
 }

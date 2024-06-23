@@ -4,7 +4,7 @@ import Doctors from "../../Asset/doctors.png";
 import "./hero-section.css";
 import SearchBar from "./SearchBar";
 
-const HeroSection = ({ statesData,cityData, settingFormData }) => {
+const HeroSection = ({ statesData,citiesData, settingFormData, handleNavigationToDP1 }) => {
   return (
     <Box className="hero-container">
       <Box className="Text-hero-btn-container">
@@ -41,7 +41,8 @@ const HeroSection = ({ statesData,cityData, settingFormData }) => {
         <SearchBar
           statesData={statesData}
           settingFormData={settingFormData}
-          citiesData={cityData}
+          citiesData={citiesData}
+          handleNavigationToDP1={handleNavigationToDP1}
         />
       </Box>
     </Box>

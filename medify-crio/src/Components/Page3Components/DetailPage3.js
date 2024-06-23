@@ -1,22 +1,15 @@
-import React from 'react'
-import './detail-DP3.css'
-import MessageNavbar from '../CommomComponents/MessageNavbar'
-import MyBooking from './deatail-page3/MyBooking'
-import CardDP3 from './deatail-page3/CardDP3'
-import MobDownload from '../CommomComponents/MobDownload'
-import Footer from '../CommomComponents/Footer'
+import React from "react";
+import "./detail-DP3.css";
+import MyBooking from "./deatail-page3/MyBooking";
+import CardDP3 from "./deatail-page3/CardDP3";
 
 const DetailPage3 = () => {
   return (
-    <div className='detail-page3-container'>
-        <MessageNavbar />
-        <MyBooking />
-        <CardDP3 />
-        <MobDownload />
-        <Footer />
-
+    <div className="detail-page3-container">
+      <MyBooking />
+      <CardDP3 />
     </div>
-  )
-}
+  );
+};
 
-export default DetailPage3
+export default DetailPage3;

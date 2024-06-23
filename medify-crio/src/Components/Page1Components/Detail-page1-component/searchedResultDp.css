@@ -1,0 +1,314 @@
+.Searched-reasult-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Searched-reasult-sub-container {
+  width: 80%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.show-no-result {
+  margin-top: 130px;
+}
+.searched-no-result {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+}
+.search-info-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  color: #787887;
+}
+.searched-result-card-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  background-color: yellow;
+}
+.searched-result-card-banner {
+  width: 180%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+  position: relative;
+}
+.searched-result-card {
+  width: 786px;
+  height: 269px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #fff;
+}
+.Searched-result-hospital-icon {
+  width: 124px;
+  height: 124px;
+  background-color: #8ccfff;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-hospital-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.Searched-result-Details-heading {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  color: #14bef0;
+}
+.Searched-result-city-state {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  color: #414146;
+}
+.Searched-result-mini-details {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414146;
+}
+.Searched-result-Discount-details {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414146;
+}
+.Searched-result-free {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  color: #02a401;
+}
+.Searched-result-previous-price {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #787887;
+  text-decoration: line-through;
+}
+.Searched-result-Booking-available-div {
+  width: 236.01px;
+  height: 220.38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Searched-result-Booking-available {
+  width: 220px;
+  height: 82.4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+.Searched-result-available {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  color: #01a400;
+}
+.Searched-result-Booking {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #ffffff;
+  border: 1px solid #14bef0;
+  background-color: #14bef0;
+}
+.searched-result-card-container {
+}
+.searched-result-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.banner-card {
+  position: absolute;
+  width: 363px;
+  height: 268px;
+  border-radius: 15px;
+  background-color: #787887;
+  overflow: hidden;
+}
+
+.banner-card-image {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+.Searched-reasult-cards-banner-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Searched-reasult-cards-banner {
+  width: 100%;
+
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Searched-reasult-cards {
+  width: 786px;
+  height: 269px;
+  border-radius: 15px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Searched-reasult-cards-dtails {
+  width: 487.55px;
+  height: 220.38px;
+  display: flex;
+}
+.Searched-reasult-hospital-details {
+  display: flex;
+  gap: 8px;
+}
+.Searched-reasult-details {
+  width: 339.55px;
+  height: 220.38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Searched-reasult-banner {
+  border-radius: 15px;
+  overflow: hidden;
+}
+.Searched-reasult-banner-image {
+  width: 363px;
+  height: 268px;
+}
+.Searched-reasult-available-btn {
+  width: 236.01px;
+  height: 220.38px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.available {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  color: #01a400;
+}
+.Searched-reasult-hospital {
+  width: 124px;
+  height: 124px;
+  background-color: #8ccfff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Searched-reasult-hospital-conatiner {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.HospitalIcon {
+  width: 80px;
+  height: 80px;
+}
+.Hospital-name {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  color: #14bef0;
+
+
+}
+.searched-result-state-details-consultant {
+
+}
+.resulted-state-city {
+  
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  color: #414146;
+}
+.searched-result-details {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414146;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.consultanant-result {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414146;
+}
+.free {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  color: #02a401;
+}
+.five-hundred {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #787887;
+  text-decoration: line-through;
+}
+.like-box-container {
+  width: 307.55px;
+  height: 22.5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.like-box {
+  width: 44.08px;
+  height: 22.5px;
+  border-radius: 3.5px;
+  background-color: #00a500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+
+  color: #ffff;
+}
+
+.searched-checked {
+  position: absolute;
+  top: 600px;
+  left: 300px;
+}

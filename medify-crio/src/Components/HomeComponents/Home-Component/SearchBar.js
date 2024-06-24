@@ -80,7 +80,7 @@ const SearchBar = ({
             InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
-                  <LocationOnIcon />
+                  <LocationOnIcon />State
                 </InputAdornment>
               ),
             }}
@@ -90,7 +90,6 @@ const SearchBar = ({
               borderRadius: "8px",
               border: "1px",
             }}
-            placeholder="State"
           >
             {renderStateOptions()}
           </TextField>
@@ -102,7 +101,7 @@ const SearchBar = ({
             InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
-                  <LocationOnIcon />
+                  <LocationOnIcon />City
                 </InputAdornment>
               ),
             }}
@@ -112,7 +111,6 @@ const SearchBar = ({
               borderRadius: "8px",
               border: "1px",
             }}
-            placeholder="City"
           >
             {renderCityOptions()}
           </TextField>

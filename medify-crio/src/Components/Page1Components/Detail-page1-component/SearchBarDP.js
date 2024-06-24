@@ -24,13 +24,13 @@ const SearchBarDP = () => {
               border: "1px solid #F0F0F0",
             }}
             InputProps={{
-              startAdornment: (
-                <InputAdornment position="start">
-                  <LocationOnIcon />
-                </InputAdornment>
-              ),
-            }}
-            placeholder="State"
+            startAdornment: (
+              <InputAdornment position="start">
+                <LocationOnIcon />State
+                
+              </InputAdornment>
+            ),
+          }}
           />
           <TextField
             className="searchDP-city"
@@ -40,12 +40,11 @@ const SearchBarDP = () => {
               height: "50px",
               border: "1px solid #F0F0F0",
             }}
-            defaultValue='City'
             InputProps={{
              
               startAdornment: (
                 <InputAdornment position="start">
-                  <LocationOnIcon /> 
+                  <LocationOnIcon />City
                 </InputAdornment>
               ),
             }}

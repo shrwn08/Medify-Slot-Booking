@@ -176,6 +176,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px;
+  margin: 30px;
 }
 
 .Searched-reasult-cards-dtails {
@@ -191,9 +193,9 @@
   width: 339.55px;
   height: 220.38px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
   flex-direction: column;
+  gap: 10px;
 }
 
 .Searched-reasult-banner {
@@ -263,9 +265,7 @@
   font-weight: 400;
   color: #414146;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 .consultanant-result {
   font-family: Poppins;

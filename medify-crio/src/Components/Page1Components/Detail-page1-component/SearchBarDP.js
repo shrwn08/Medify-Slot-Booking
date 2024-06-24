@@ -7,9 +7,10 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import "./searchbar-dp.css";
 
 const SearchBarDP = () => {
-  const handleOnSubmitDP = (event) =>{
+  const handleOnSubmitDP = (event) => {
     event.preventDefault();
-  }
+  };
+
   return (
     <div className="searchDP-container">
       <form onSubmit={handleOnSubmitDP}>
@@ -39,14 +40,16 @@ const SearchBarDP = () => {
               height: "50px",
               border: "1px solid #F0F0F0",
             }}
+            defaultValue='City'
             InputProps={{
+             
               startAdornment: (
                 <InputAdornment position="start">
-                  <LocationOnIcon />
+                  <LocationOnIcon /> 
                 </InputAdornment>
               ),
             }}
-            placeholder="Cities"
+            
           />
           <Button
             sx={{
@@ -58,7 +61,6 @@ const SearchBarDP = () => {
             }}
             type="submit"
           >
-
             <SearchIcon /> Search
           </Button>
         </Box>

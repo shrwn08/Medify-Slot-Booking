@@ -1,21 +1,33 @@
-import React from 'react'
-import './detail-page2.css'
-import MessageNavbar from '../CommomComponents/MessageNavbar'
-import SearchBarDP from '../Page1Components/Detail-page1-component/SearchBarDP'
-import Footer from '../CommomComponents/Footer'
-import MobDownload from '../CommomComponents/MobDownload'
-import AskFAQ from '../CommomComponents/AskFAQ'
-import CardDP2 from './detail-page2/CardDP2'
+import React from "react";
+import "./detail-page2.css";
+import SearchBarDP from "../Page1Components/Detail-page1-component/SearchBarDP";
+import AskFAQ from "../CommomComponents/AskFAQ";
+import ResultedCard from "./detail-page2/ResultedCard";
 
-const DetailPage2 = () => {
+const DetailPage2 = ({
+  hospitalData,
+  formData,
+  booking,
+  setBooking,
+  setHospitalDetail,
+  handleBookingData
+}) => {
+  console.log(hospitalData);
+  console.log(formData);
   return (
-    <div className='detail-page2-container'>
-      
-        <SearchBarDP />
-        <CardDP2 />
-        <AskFAQ />
+    <div className="detail-page2-container">
+      <SearchBarDP />
+      <ResultedCard
+        hospitalData={hospitalData}
+        formData={formData}
+        booking={booking}
+        setBooking={setBooking}
+        setHospitalDetail={setHospitalDetail}
+        handleBookingData={handleBookingData}
+      />
+      <AskFAQ />
     </div>
-  )
-}
+  );
+};
 
-export default DetailPage2
+export default DetailPage2;

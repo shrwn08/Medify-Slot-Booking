@@ -1,0 +1,353 @@
+.DP2-Searched-reasult-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .DP2-Searched-reasult-sub-container {
+    width: 80%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  .DP2-show-no-result {
+    margin-top: 130px;
+  }
+  
+  .DP2-searched-no-result {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .DP2-search-info-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    color: #787887;
+  }
+  
+  .DP2-searched-result-card-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: yellow;
+  }
+  
+  .DP2-searched-result-card-banner {
+    width: 180%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    position: relative;
+  }
+  
+  .DP2-searched-result-card {
+    width: 786px;
+    height: 269px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Change to column */
+    background-color: #fff;
+  }
+  
+  .DP2-Searched-result-hospital-icon {
+    width: 124px;
+    height: 124px;
+    background-color: #8ccfff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .DP2-result-hospital-icon {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .DP2-Searched-result-Details-heading {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    color: #14bef0;
+  }
+  
+  .DP2-Searched-result-city-state {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    color: #414146;
+  }
+  
+  .DP2-Searched-result-mini-details {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #414146;
+  }
+  
+  .DP2-Searched-result-Discount-details {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #414146;
+  }
+  
+  .DP2-Searched-result-free {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    color: #02a401;
+  }
+  
+  .DP2-Searched-result-previous-price {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #787887;
+    text-decoration: line-through;
+  }
+  
+  .DP2-Searched-result-Booking-available-div {
+    width: 236.01px;
+    height: 220.38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .DP2-Searched-result-Booking-available {
+    width: 220px;
+    height: 82.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .DP2-Searched-result-available {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: #01a400;
+  }
+  
+  .DP2-Searched-result-Booking {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    color: #ffffff;
+    border: 1px solid #14bef0;
+    background-color: #14bef0;
+  }
+  
+  .DP2-searched-result-card-container {
+  }
+  
+  .DP2-searched-result-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .DP2-banner-card {
+    position: absolute;
+    width: 363px;
+    height: 268px;
+    border-radius: 15px;
+    background-color: #787887;
+    overflow: hidden;
+  }
+  
+  .DP2-banner-card-image {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+  }
+  
+  .btn-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .DP2-Searched-reasult-cards-banner-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .DP2-Searched-reasult-cards-banner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .DP2-Searched-reasult-cards {
+    width: 786px;
+    height: auto;
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .DP2-Searched-reasult-cards-details {
+    width: 100%;
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .DP2-Searched-reasult-hospital-details {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .DP2-Searched-reasult-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .DP2-Searched-reasult-banner {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .DP2-Searched-reasult-banner-image {
+    width: 363px;
+    height: 268px;
+  }
+  
+  .DP2-Searched-reasult-available-btn {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+  
+  .DP2-available {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: #01a400;
+  }
+  
+  .DP2-Searched-reasult-hospital {
+    width: 124px;
+    height: 124px;
+    background-color: #8ccfff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .DP2-Searched-reasult-hospital-conatiner {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+  }
+  
+  .DP2-HospitalIcon {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .DP2-Hospital-name {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    color: #14bef0;
+  }
+  
+  .DP2-searched-result-state-details-consultant {
+  }
+  
+  .DP2-resulted-state-city {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    color: #414146;
+  }
+  
+  .DP2-searched-result-details {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #414146;
+    position: relative;
+    
+  }
+  
+  .DP2-consultanant-result {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #414146;
+  }
+  
+  .DP2-free {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    color: #02a401;
+  }
+  
+  .DP2-five-hundred {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #787887;
+    text-decoration: line-through;
+  }
+  
+  .DP2-like-box-container {
+    width: 307.55px;
+    height: 22.5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .DP2-like-box {
+    width: 44.08px;
+    height: 22.5px;
+    border-radius: 3.5px;
+    background-color: #00a500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffff;
+  }
+  
+  .DP2-searched-checked {
+    position: absolute;
+    top: 70%;
+    left: 83%;
+  }
+  

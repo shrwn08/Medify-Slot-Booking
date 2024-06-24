@@ -7,13 +7,14 @@ import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import VerifiedSharpIcon from "@mui/icons-material/VerifiedSharp";
 import "./searchedResultDp.css";
 
-const SearchedDp = () => {
+const SearchedResultDp = ({handleNavigationToDP2,hospitalData,formData,}) => {
   return (
+    
     <div className="Searched-reasult-container">
       <Box className="Searched-reasult-sub-container">
         <Box className="show-no-result">
           <p className="searched-no-result">
-            15 medical centers available in Alaska
+            {hospitalData.length} medical centers available in {formData.state}
           </p>
           <Box className="search-info-container">
             <CheckCircleOutlineRoundedIcon />
@@ -24,7 +25,8 @@ const SearchedDp = () => {
         </Box>
         <Box className="Searched-reasult-cards-banner-container">
           <Box className="Searched-reasult-cards-banner">
-            <Box className="Searched-reasult-cards">
+          { hospitalData.map(item=> (
+            <Box className="Searched-reasult-cards" key={item['Provider ID']}>
               <Box className="Searched-reasult-cards-dtails">
                 <Box className="Searched-reasult-hospital-details">
                   <Box className="Searched-reasult-hospital-conatiner">
@@ -44,16 +46,17 @@ const SearchedDp = () => {
                       />
                     </Box>
                   </Box>
-                  <Box className="Searched-reasult-details">
+                  
+                    <Box key ={item['Provider ID']} className="Searched-reasult-details">
                     <Box className="searched-result-hospital-name">
                       <p className="Hospital-name">
-                        Fortis Hospital Richmond Road
+                        {item.Address}
                       </p>
                     </Box>
                     <Box className="searched-result-state-details-consultant">
-                      <p className="resulted-state-city">Banglore, Karnataka</p>
+                      <p className="resulted-state-city">{item.City}, {item.State}</p>
                       <p className="searched-result-details">
-                        Smilessence Center for Advanced Dentistry + 1 more
+                        {item['Hospital Name']}
                       </p>
                       <p className="consultanant-result">
                         <span className="free">FREE </span>
@@ -67,11 +70,13 @@ const SearchedDp = () => {
                           width : '14px',
                         }}
                         />
-                        5
+                        {item['Hospital overall rating']}
                       </Box>
                     </Box>
-                    
+                  
                   </Box>
+                  
+                  
                   
                 </Box>
               </Box>
@@ -88,11 +93,14 @@ const SearchedDp = () => {
                     backgroundColor: "#14BEF0",
                     border: "1px solid #14BEF0",
                   }}
+                  onClick={handleNavigationToDP2}
                 >
                   Book FREE Center Visit
                 </Button>
               </Box>
+
             </Box>
+          ))}
           </Box>
           <Box className="Searched-reasult-banner">
             <img
@@ -107,4 +115,4 @@ const SearchedDp = () => {
   );
 };
 
-export default SearchedDp;
+export default SearchedResultDp;

@@ -162,15 +162,15 @@
 }
 .Searched-reasult-cards-banner {
   width: 100%;
-
   height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 .Searched-reasult-cards {
   width: 786px;
-  height: 269px;
+  height: auto;
   border-radius: 15px;
   background-color: #fff;
   display: flex;
@@ -233,6 +233,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
 }
 .HospitalIcon {
   width: 80px;
@@ -309,6 +310,6 @@
 
 .searched-checked {
   position: absolute;
-  top: 600px;
-  left: 300px;
+  top: 70%;
+  left: 83%;
 }

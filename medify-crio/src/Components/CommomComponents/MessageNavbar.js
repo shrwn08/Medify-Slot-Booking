@@ -3,7 +3,7 @@ import { Box, Button } from "@mui/material";
 import MedifyLogo from "../Asset/medify-logo.png";
 import "./msg-alert.css";
 
-const MessageNavbar = () => {
+const MessageNavbar = ({handleNavigationToHomePage}) => {
   return (
     <Box className="msgNav">
       <Box className="message-alert-container">
@@ -13,9 +13,9 @@ const MessageNavbar = () => {
       </Box>
       <Box className='nav-links-btn-container'>
       <Box className="navbar-container">
-        <Box className="logo">
+        <Button className="logo" type='button' onClick={handleNavigationToHomePage}>
           <img src={MedifyLogo} alt="medify" className="logo-img" />
-        </Box>
+        </Button>
         
         <Box className="nav-links-button">
           <Box className="nav-links">

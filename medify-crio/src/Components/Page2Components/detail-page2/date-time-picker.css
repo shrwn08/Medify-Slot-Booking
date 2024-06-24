@@ -1,0 +1,84 @@
+.Date-time-carousel-container {
+  width: 100%;
+}
+.date-time-carousel-sub-container {
+  width: 745px;
+  height: 278px;
+  background-color: #fff;
+}
+.dateTimeCarousel {
+  width: 700px;
+  height: 58.2px;
+  background-color: #fff;
+ text-align: center;
+ padding-top: 20px;
+}
+.Morning-time-Container {
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f5;
+  padding-bottom: 20px;
+}
+.Afternoon-time-Container {
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f5;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .Evening-time-Container{
+    height: 73px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f5;
+    margin-left: 25px;
+    margin-right: 25px;
+
+  }
+.Morning-time{
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414146;
+}
+.morning-btn{
+    margin-left: 25px;
+}
+.afternoon-btn{
+    margin-left: 13px;
+}
+.evening-btn{
+ margin-left: 24px;   
+}
+
+.date-btn{
+    background-color: #ffff;
+    border: none;
+    cursor: pointer;
+
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #2AA7FF; 
+}
+
+.slick-prev, .slick-next {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #E0E0E4;
+    display: flex !important; /* Ensure the arrows are displayed as flex */
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    color: #2AA7FF;
+
+  }

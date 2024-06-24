@@ -1,20 +1,22 @@
 import React from 'react'
 import './detail-page1.css'
-import MessageNavbar from '../CommomComponents/MessageNavbar'
 import SearchBarDP from './Detail-page1-component/SearchBarDP'
 import SearchedResultDp from './Detail-page1-component/SearchedResultDp'
 import AskFAQ from '../CommomComponents/AskFAQ'
-import MobDownload from '../CommomComponents/MobDownload'
-import Footer from '../CommomComponents/Footer'
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
-const DetailPage1 = () => {
+const DetailPage1 = ({hospitalData,formData}) => {
+  const navigate = useNavigate();
+
+  const handleNavigationToDP2 = () => {
+    navigate("/detailpage2");
+  };
   return (
     <div className='detail-page1-container'>
         
         <SearchBarDP />
-        <SearchedResultDp />
+        <SearchedResultDp handleNavigationToDP2={handleNavigationToDP2} hospitalData={hospitalData} formData={formData}/>
         <AskFAQ />
     </div>
   )

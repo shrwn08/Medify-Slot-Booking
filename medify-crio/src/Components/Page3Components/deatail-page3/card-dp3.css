@@ -1,123 +1,145 @@
-.CardDP3-Booking-container {
-  margin-top: 80px;
+.DP3-Searched-reasult-container {
   width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 80px;
 }
 
-.CardDp2-banner-timing-appointment {
-  position: relative;
+.DP3-Searched-reasult-sub-container {
   width: 80%;
   height: auto;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
-.searched-result-card-container {
+
+.DP3-show-no-result {
+  margin-top: 130px;
+}
+
+.DP3-searched-no-result {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.DP3-search-info-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  color: #787887;
+}
+
+.DP3-searched-result-card-container {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
-}
-.searched-result-card-banner {
-  width: 786px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
+  background-color: yellow;
 }
 
-.searched-result-card {
-  height: auto;
-  /* padding-bottom: 30px; */
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.search-result-card-box {
+.DP3-searched-result-card-banner {
+  width: 180%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
-  border-bottom: 1px solid #f0f0f5;
+  background-color: pink;
+  position: relative;
 }
-.Searched-result-hospital-icon {
+
+.DP3-searched-result-card {
+  width: 786px;
+  height: 269px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.DP3-Searched-result-hospital-icon {
   width: 124px;
   height: 124px;
   background-color: #8ccfff;
-
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.result-hospital-icon {
+
+.DP3-result-hospital-icon {
   width: 80px;
   height: 80px;
 }
 
-.Searched-result-Details-heading {
+.DP3-Searched-result-Details-heading {
   font-family: Poppins;
   font-size: 20px;
   font-weight: 600;
   color: #14bef0;
 }
-.Searched-result-city-state {
+
+.DP3-Searched-result-city-state {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 700;
   color: #414146;
 }
-.Searched-result-mini-details {
+
+.DP3-Searched-result-mini-details {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
   color: #414146;
 }
-.Searched-result-Discount-details {
+
+.DP3-Searched-result-Discount-details {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
   color: #414146;
 }
-.Searched-result-free {
+
+.DP3-Searched-result-free {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 700;
   color: #02a401;
 }
-.Searched-result-previous-price {
+
+.DP3-Searched-result-previous-price {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
   color: #787887;
   text-decoration: line-through;
 }
-.Searched-result-Booking-available-div {
+
+.DP3-Searched-result-Booking-available-div {
   width: 236.01px;
   height: 220.38px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.Searched-result-Booking-available {
+
+.DP3-Searched-result-Booking-available {
   width: 220px;
   height: 82.4px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   gap: 16px;
 }
-.CardDP3-time-available {
-  width: 84px;
-  height: 31.59px;
-  border-radius: 3px;
-  border: 1px solid #2aa7ff;
-  background-color: #fff;
-  color: #2aa7ff;
-  font-family: Lato;
+
+.DP3-Searched-result-available {
+  font-family: Poppins;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
+  color: #01a400;
 }
-.Searched-result-Booking {
+
+.DP3-Searched-result-Booking {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 500;
@@ -126,77 +148,230 @@
   border: 1px solid #14bef0;
   background-color: #14bef0;
 }
-.searched-result-card-container {
-}
-.searched-result-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-.banner-card {
+
+.DP3-banner-card {
   position: absolute;
-  top: 0px;
-  right: 0px;
   width: 363px;
   height: 268px;
   border-radius: 15px;
+  background-color: #787887;
+  overflow: hidden;
 }
 
-.banner-card-image {
+.DP3-banner-card-image {
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
 }
-.timings-appointments {
-}
-.morning-appointment {
-  margin: 25px;
-  gap: 37px;
+
+.DP3-btn-card-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #f0f0f5;
 }
-.morning {
-  font-family: Lato;
+
+.DP3-Searched-reasult-cards-banner-container {
+  width: 100%;
+    margin-top: 100px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DP3-Searched-reasult-cards-banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.DP3-Searched-reasult-cards {
+  width: 786px;
+  height: auto;
+  border-radius: 15px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.DP3-Searched-reasult-cards-details {
+  width: 100%;
+  height: 268.38px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DP3-Searched-reasult-hospital-details {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.DP3-Searched-reasult-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.DP3-Searched-reasult-banner {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.DP3-Searched-reasult-banner-image {
+  width: 363px;
+  height: 268px;
+}
+
+.DP3-Searched-reasult-available-btn {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DP3-available {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  color: #01a400;
+}
+
+.DP3-Searched-reasult-hospital {
+  width: 124px;
+  height: 124px;
+  background-color: #8ccfff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DP3-Searched-reasult-hospital-conatiner {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.DP3-HospitalIcon {
+  width: 80px;
+  height: 80px;
+}
+
+.DP3-Hospital-name {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  color: #14bef0;
+}
+
+.DP3-searched-result-state-details-consultant {
+}
+
+.DP3-resulted-state-city {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  color: #414146;
+}
+
+.DP3-searched-result-details {
+  font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
   color: #414146;
+  position: relative;
 }
-.cardDP2-expended-card-timing-availability {
-  width: 100%;
-  padding-bottom: 30px;
-}
-.After-noon-appointment {
-  margin: 25px;
-  gap: 30px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #f0f0f5;
-}
-.After-noon {
-  font-family: Lato;
+
+.DP3-consultanant-result {
+  font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
   color: #414146;
 }
 
-.evening-appointment {
-  margin: 25px;
-  gap: 40px;
+.DP3-free {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  color: #02a401;
+}
+
+.DP3-five-hundred {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #787887;
+  text-decoration: line-through;
+}
+
+.DP3-like-box-container {
+  width: 307.55px;
+  height: 22.5px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #f0f0f5;
 }
-.evening {
+
+.DP3-like-box {
+  height: 22.5px;
+  border-radius: 3.5px;
+  padding: 4.5px 7.49px 4px 10.8px;
+  background-color: #00a500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Lato;
   font-size: 14px;
-  font-weight: 400;
-  color: #414146;
+  font-weight: 700;
+  color: #ffff;
+}
+
+.DP3-searched-checked {
+  position: absolute;
+  top: 70%;
+  left: 83%;
+}
+.DP3-date{
+  width: 128px;
+height: 32px;
+color:#00A500;
+padding: 7px 6.55px 8px 11.45px;
+border: 1px solid #00A500;
+border-radius: 3px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.DP3-time-date-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap  : 10px;
+}
+/*
+
+*/
+.DP3-time{
+  width: 84px;
+height: 31.59px;
+padding: 7px 10.96px 7.59px 11.44px;
+border-radius: 3px ;
+border: 1px solid #2AA7FF;
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+color: #2AA7FF;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }

@@ -1,10 +1,7 @@
 import React from "react";
 import { Box } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import Footer from "../CommomComponents/Footer";
-import MobDownload from "../CommomComponents/MobDownload";
 import AskFAQ from "../CommomComponents/AskFAQ";
-import MessageNavbar from "../CommomComponents/MessageNavbar";
 import HeroSection from "./Home-Component/HeroSection";
 
 import "./home.css";

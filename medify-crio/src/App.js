@@ -8,13 +8,8 @@ import DetailPage1 from "./Components/Page1Components/DetailPage1";
 import DetailPage2 from "./Components/Page2Components/DetailPage2";
 import DetailPage3 from "./Components/Page3Components/DetailPage3";
 import MessageNavbar from "./Components/CommomComponents/MessageNavbar";
-
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  useNavigate,
-} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   const [stateData, setStateData] = useState([]);
@@ -23,7 +18,30 @@ const App = () => {
     state: "",
     city: "",
   });
-  const [hospitalData,setHospitalData] = useState([]);
+  const [hospitalData, setHospitalData] = useState([]);
+  const [booking, setBooking] = useState(0);
+  const [hospitalDetail, setHospitalDetail] = useState({
+    hospitalName: '',
+    hospitalAddress: '',
+    state: '',
+    city: '',
+    rating: '',
+    bookTime: '',
+    bookDate: ''
+  });
+  const [bookingCardsData, setBookingCardsData] = useState([]);
+  const [selectedHospitalData,setSelectedHospitalData] = useState([]);
+  const navigateToHome = useNavigate();
+
+  const handleBookingData = () => {
+    setBookingCardsData((prevBookingData) => [...prevBookingData, hospitalDetail]);
+  };
+
+  const handleNavigationToHomePage = () => {
+    navigateToHome('/');
+  };
+
+  console.log(bookingCardsData);
 
   const fetchStates = async () => {
     try {
@@ -48,21 +66,17 @@ const App = () => {
     }
   };
 
-  const fetchHospitals = async (state,city) => {
-    if (!state && !city ) return;
+  const fetchHospitals = async (state, city) => {
+    if (!state && !city) return;
     try {
       const hospitalResponse = await axios.get(
         `https://meddata-backend.onrender.com/data?state=${state}&city=${city}`
       );
-      console.log(hospitalResponse.data)
       setHospitalData(hospitalResponse.data);
     } catch (error) {
-      console.error("Error fetching cities:", error);
+      console.error("Error fetching hospitals:", error);
     }
   };
-
-
-
 
   useEffect(() => {
     fetchStates();
@@ -73,47 +87,55 @@ const App = () => {
   }, [formData.state]);
 
   useEffect(() => {
-    fetchHospitals(formData.state,formData.city);
-  }, [formData.state,formData.city]);
+    fetchHospitals(formData.state, formData.city);
+  }, [formData.state, formData.city]);
 
-  console.log(formData);
+  useEffect(()=>{
+    const handleSelectedHospital=async(data)=>{
+      const selectedHospital = data.map((item,index)=>item[index].hospitalName)
+      return selectedHospital;
+    }
+    const result=handleSelectedHospital(bookingCardsData);
+    setSelectedHospitalData((PHdata)=>[...PHdata,result]);
+  },[])
+
   return (
     <div>
-      <MessageNavbar />
-      
-      
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <Home
-                statesData={stateData}
-                citiesData={cityData}
-                settingFormData={setFormData}
-                
-              />
-            }
-          />
-          <Route path="/detailPage1"
-          element={
-            <DetailPage1 />
-          }
-          />
-          <Route path="/detailPage2"
-            element={
-              <DetailPage2 />
-            }
-          />
-          <Route path="/detailPage3"
-            element={
-              <DetailPage3 />
-            }
-          />
-        </Routes>
+      <MessageNavbar handleNavigationToHomePage={handleNavigationToHomePage} />
 
-      {/* <DetailPage1/> */}
-      {/* <DetailPage2 /> */}
-      {/* <DetailPage3 /> */}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Home
+              statesData={stateData}
+              citiesData={cityData}
+              settingFormData={setFormData}
+            />
+          }
+        />
+        <Route
+          path="/detailPage1"
+          element={
+            <DetailPage1 hospitalData={hospitalData} formData={formData} />
+          }
+        />
+        <Route
+          path="/detailPage2"
+          element={
+            <DetailPage2
+              hospitalData={hospitalData}
+              formData={formData}
+              booking={booking}
+              setBooking={setBooking}
+              setHospitalDetail={setHospitalDetail}
+              handleBookingData={handleBookingData}
+            />
+          }
+        />
+        <Route path="/detailPage3" element={<DetailPage3 bookingCardsData={bookingCardsData} selectedHospitalData={selectedHospitalData}/>} />
+      </Routes>
+
       <MobDownload />
       <Footer />
     </div>
